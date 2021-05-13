@@ -23,33 +23,28 @@ body{
     border-radius: 4px;
 }
 
-.contenedor .header {
-    background-color: blue;
-    color: white;
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
-
 .contenedor .contenido {
-    grid-column: span 2;
-    background-color:white;
-}
-
-.contenedor .sidebar{
-    background-color: tomato;
-    grid-row: span 2;
+    grid-column: span 3;
+    background-color:khaki;
 }
 
 .contenedor .widget-1,
-.contenedor .widget-2 {
-    background-color: green;
-    color: white;
+.contenedor .widget-2,
+.contenedor .widget-3,
+.contenedor .widget-4,
+.contenedor .widget-5,
+.contenedor .widget-6
+ {
+    background-color:palegreen;
+    color: black;
+    
 }
 
-.contenedor .footer {
-    background-color: blue;
-    color: white;
-    grid-column: span 3;
+.contenedor .widget-7 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: palegreen;
+    color: black;
 }
 
 @media screen and (max-width: 768px) {
